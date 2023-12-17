@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #56b7b9;
+  margin: 6px;
+}
+
+.App {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  grid-gap: 15%;
+  grid-template-columns: auto auto;
+  grid-template-rows: 80vh;
+  padding: 0 20%;
+  margin-top: 10%;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-size: 24px;
+  border-radius: 30px;
+  background: linear-gradient(145deg, #4da5a7, #5cc4c6);
+  box-shadow: 41px 41px 82px #469496, -41px -41px 82px #66dadc;
+  margin: 20px;
+}
